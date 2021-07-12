@@ -12,7 +12,7 @@ let package = Package(
         .watchOS("2.0"),
     ],
     products: [
-        .library(name: "GRDB", targets: ["GRDB"]),
+        .library(name: "GRDB", type: .dynamic, targets: ["GRDB"]),
     ],
     dependencies: [
     ],
